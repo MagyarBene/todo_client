@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.app{
+  background: linear-gradient(#313131, #686767);
+  min-height: 100vh;
+}
+.login{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px
+  ;
+}
+.header{
+  text-align: center;
+  color: white;
+}
+
+.addTodo{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer{position: absolute;bottom: 0; right: 0;}
